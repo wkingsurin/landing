@@ -1,0 +1,17 @@
+html {
+  font-family: "Articulat CF";
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: content-box;
+}
