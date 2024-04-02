@@ -71,6 +71,9 @@
 
   line-height: 48px;
 }
+.text-block_flex > *:not(:last-child) {
+  margin-right: 7px;
+}
 .text-block_mb60 {
   margin-bottom: 60px;
 }
@@ -146,23 +149,26 @@
   font-weight: 300;
   line-height: 29px;
 }
-.application .item__title {
+.application .item-title {
   display: block;
 
   font-size: 21px;
   font-weight: 400;
   margin-bottom: 7px;
 }
-.application .item__text {
+.application .item-text {
 }
-.item__title {
+.item-title {
 }
-.item__text {
+.application .item-text {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
 }
-.application .item__link {
+.application .item-link {
   font-size: 21px;
   font-weight: 400;
   color: inherit;
 }
-.item__link {
+.item-link {
 }
