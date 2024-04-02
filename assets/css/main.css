@@ -3,6 +3,7 @@
 @import url("./efficiency.css");
 @import url("./application.css");
 @import url("./assortment.css");
+@import url("./solution.css");
 
 .main {
   flex: 1 1;
