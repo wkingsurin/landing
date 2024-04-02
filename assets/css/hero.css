@@ -1,0 +1,28 @@
+.hero {
+}
+.hero-block {
+  display: flex;
+  justify-content: flex-end;
+}
+.hero-image {
+  position: relative;
+
+  display: flex;
+}
+.hero__logo-block {
+  position: absolute;
+  top: 46px;
+  left: 197px;
+
+  width: 101px;
+  height: 105px;
+}
+.hero__logo {
+}
+.hero-image .image {
+  width: 1210px;
+  height: 756px;
+
+  object-fit: cover;
+  object-position: right;
+}
