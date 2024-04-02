@@ -1,0 +1,68 @@
+@import url("./reset.css");
+@import url("./fonts.css");
+
+html {
+  font-family: "Articulat CF";
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: content-box;
+}
+
+.header {
+  flex: 0 0;
+
+  color: white;
+  background: #333333;
+}
+.header-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  min-height: 73px;
+}
+.header__logo-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 36px;
+  height: 32px;
+}
+.logo {
+  width: 100%;
+  height: 100%;
+}
+.header__menu-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 75px;
+}
+.menu-item {
+}
+.menu-item:hover {
+  cursor: pointer;
+}
+.item-text {
+  font-weight: 300;
+  font-size: 14px;
+}
+.header__search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search {
+}
