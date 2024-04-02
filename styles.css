@@ -1,1 +1,50 @@
 @import url("./assets/css/import.css");
+
+.efficiency {
+  position: relative;
+}
+.efficiency__image-block {
+  display: flex;
+  justify-content: center;
+  max-height: 570px;
+
+  background: #000;
+}
+.efficiency__image-block .image {
+  object-fit: contain;
+}
+
+.efficiency-block {
+  position: absolute;
+  top: 58px;
+  left: 40%;
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+  color: white;
+}
+.efficiency__icon-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.efficiency__icon-block .icon {
+  width: 43px;
+  height: 38px;
+}
+.efficiency__icon-block path {
+  fill: white;
+}
+.icon {
+}
+
+.efficiency-block .text {
+  margin-top: 30px;
+  font-weight: 300;
+
+  color: inherit;
+}
+.text {
+}
