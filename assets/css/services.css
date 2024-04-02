@@ -98,7 +98,7 @@
   margin-right: 55px;
 }
 
-.item__icon-block {
+.advantages-item .item__icon-block {
   display: flex;
   align-items: center;
   justify-content: center;

@@ -48,3 +48,121 @@
 }
 .text {
 }
+
+/* APPLICATION */
+
+.application {
+}
+.application-block {
+  padding: 100px 0 170px 0;
+}
+.about-block {
+  padding-left: 100px;
+}
+.about-block_mb180 {
+  margin-bottom: 180px;
+}
+
+.text-block {
+}
+.text-block_flex {
+  display: flex;
+  align-items: flex-end;
+
+  line-height: 48px;
+}
+.text-block_mb60 {
+  margin-bottom: 60px;
+}
+
+.text {
+}
+.text_fz28 {
+}
+.text_mb22 {
+  margin-bottom: 22px;
+}
+.text_fw200 {
+  font-weight: 200;
+}
+.application .text {
+}
+.application .text_large {
+  font-size: 48px;
+  line-height: 57px;
+
+  color: #009245;
+}
+
+.cards-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  row-gap: 80px;
+  column-gap: 20px;
+
+  color: #1a1a1a;
+}
+.item {
+  flex: 0 0 32%;
+}
+.application .item__icon-block {
+  position: relative;
+  left: 115px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 53px;
+  height: 53px;
+
+  margin-bottom: 82px;
+}
+.item__icon-block {
+}
+.icon-block_clock {
+  width: 50px;
+  height: 50px;
+}
+.icon-block_women {
+  width: 46px;
+  height: 53px;
+}
+.icon-block_hourglass {
+  width: 43px;
+  height: 48px;
+}
+.application .icon {
+}
+
+.icon {
+}
+.item__text-block {
+}
+.application .item__text-block {
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 29px;
+}
+.application .item__title {
+  display: block;
+
+  font-size: 21px;
+  font-weight: 400;
+  margin-bottom: 7px;
+}
+.application .item__text {
+}
+.item__title {
+}
+.item__text {
+}
+.application .item__link {
+  font-size: 21px;
+  font-weight: 400;
+  color: inherit;
+}
+.item__link {
+}
