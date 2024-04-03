@@ -1,1 +1,68 @@
 @import url("./assets/css/import.css");
+
+.happy {
+}
+
+.happy__image-block {
+  display: flex;
+}
+.image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.happy-block {
+  display: flex;
+  justify-content: center;
+
+  padding: 55px 0 155px 0;
+}
+.happy-block > *:not(:last-child) {
+  margin-right: 120px;
+}
+
+.happy__text-block {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 412px;
+
+  text-align: right;
+}
+.happy__text-block .text {
+}
+
+.text {
+}
+.text_mb32 {
+  margin-bottom: 32px;
+}
+
+.happy__icons-block {
+  display: flex;
+  align-items: flex-end;
+}
+.happy__icons-block > *:not(:last-child) {
+  margin-right: 35px;
+}
+
+/* .happy__icons-block .bottle {
+  width: 36px;
+  height: 99px;
+}
+.happy__icons-block .snack {
+  width: 81px;
+  height: 52px;
+} */
+
+.happy__icons-block .text {
+  line-height: 50px;
+  font-weight: 200;
+  color: #009245;
+}
+
+.icon-block {
+  display: flex;
+}
+.icon {
+}

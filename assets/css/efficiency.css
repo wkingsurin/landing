@@ -9,6 +9,7 @@
   background: #000;
 }
 .efficiency__image-block .image {
+  max-height: 570px;
   object-fit: contain;
 }
 

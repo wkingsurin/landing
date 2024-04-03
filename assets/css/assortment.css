@@ -45,8 +45,8 @@
   align-items: center;
   justify-content: center;
 
-  width: 980px;
-  height: 588px;
+  max-width: 980px;
+  max-height: 588px;
 
   margin-bottom: 70px;
 }
